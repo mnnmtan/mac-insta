@@ -1,0 +1,104 @@
+#login-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.login-form form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.login-form button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.login-form button:hover {
+  background-color: red;
+}
+.title {
+  text-align: center;
+}
+.title p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.username,
+.password {
+  margin-bottom: 10px;
+}
+.username input,
+.password input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.username label,
+.password label {
+  display: block;
+  font-weight: bold;
+}
+.checkbox {
+  margin-bottom: 10px;
+}
+.checkbox input {
+  width: 50px;
+  height: 50px;
+}
+.checkbox label {
+  display: inline;
+  margin-left: 5px;
+}
+.submit {
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 5px;
+}
+.submit button {
+  width: 100%;
+  border: none;
+  background: #446084;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit button:hover {
+  background: #1c3556;
+}
+.submit:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.forgot {
+  margin-top: 10px;
+  text-align: center;
+}
+.forgot a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}

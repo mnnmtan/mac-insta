@@ -1,0 +1,140 @@
+.product-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.product-line {
+  width: 70%;
+  margin-left: 15%;
+  height: 1px;
+  background: #b9b7b7;
+}
+.product-filter select {
+  padding: 10px;
+  border: 1px solid #b4b3b3;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.product-filter p {
+  float: right;
+  margin-right: 15%;
+  margin-top: 25px;
+}
+.ordering {
+  float: left;
+  margin-right: 1%;
+  margin-left: 15%;
+  padding-top: 25px;
+}
+.ordering1 {
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding-top: 25px;
+}
+.page1-product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers-pages {
+  text-align: center;
+}
+.nav-number-page {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.nav-number-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-number-page ul li {
+  display: inline-block;
+}
+.nav-number-page ul li button {
+  padding: 5px 15px;
+  cursor: pointer;
+  border: black 1px solid;
+  border-radius: 50%;
+  background-color: #446084;
+  color: white;
+}
+.nav-number-page ul li button:hover {
+  background-color: #75a4e1;
+}
+.review-container {
+  width: 100%;
+  padding: 50px;
+}
+.review-container p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.review-star {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.review-star h4 {
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 5px 0 0 10px;
+}
+.review-star img {
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+.review-line {
+  width: 100%;
+  height: 1px;
+  background: #b9b7b7;
+}
+.review-box {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.review-user {
+  width: 100%;
+  margin: 20px 0 0 0;
+  flex: 0 1 calc(35% - 45px);
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.review-user img {
+  width: 100%;
+  object-fit: cover;
+}
+.star-review img {
+  width: 30%;
+  height: 30%;
+}
+.review-user h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.review-user span {
+  display: block;
+  font-style: italic;
+}
+.review-user h6 {
+  font-size: 1em;
+}

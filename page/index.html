@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mac Insta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/page/styles/styles.css" />
+    <link rel="stylesheet" href="/page/styles/login.css" />
+    <link rel="stylesheet" href="/page/styles/search.css" />
+    <link rel="stylesheet" href="/page/styles/cart.css" />
+    <link rel="stylesheet" href="/page/styles/favourite.css"/>
+    <link rel="stylesheet" href="/page/styles/animations.css" />
+    <link rel="stylesheet" href="/page/styles/product.css" />
+    <link rel="stylesheet" href="/page/styles/contact.css" />
+    <link rel="stylesheet" href="/page/styles/blog.css" />
+    <link rel="stylesheet" href="/page/styles/media.css" />
+    <link rel="reset" href="/page/styles/reset.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </head>
+  <body>
+    <div id="home-page">
+    <div class="container">
+      <header class="header-home-page">
+      </header>
+        <div class="sidebar">
+          <div class="line-header"></div>
+        </div>
+      <main>
+        <div class="home-banner">
+          <div class="banner-slide">
+            <div>
+            <img src="/assets/banner1.jpg" alt="banner" />
+            <img src="/assets/banner2.jpg" alt="banner" />
+            <img src="/assets/banner3.jpeg" alt="banner" />
+            </div>
+          </div>
+        </div>
+        <div class="home-product">
+        <div class="title">
+            <p>
+                <div class="line"></div>
+                &nbsp; Sản phẩm mới nhất &nbsp;
+                <div class="line"></div>
+            </p>
+        </div>
+          <div class="product-new">
+          </div>
+        <div class="title">
+            <p>
+                <div class="line"></div>
+                &nbsp; Sản phẩm nổi bật &nbsp;
+                <div class="line"></div>
+            </p>
+            <h3>LỰA CHỌN TỪ MAC INSTA</h3>
+        </div>
+          <div class="product-hot">
+          </div>
+        <div class="title">
+            <p>
+                <div class="line"></div>
+                &nbsp; Sản phẩm bán chạy &nbsp;
+                <div class="line"></div>
+            </p>
+        </div>
+          <div class="product-best-sell">
+          </div>
+        <div class="title">
+            <p>
+                <div class="line"></div>
+                &nbsp; Sản phẩm của chúng tôi &nbsp;
+                <div class="line"></div>
+            </p>
+        </div>
+          <div class="product-our">
+          </div>
+          <div class="button-more">
+            <button onclick="switchToProductPage()">Xem thêm &nbsp; ></button>
+          </div>
+        </div>
+        <div class="title">
+            <p>
+                <div class="line"></div>
+                &nbsp; Blog &nbsp;
+                <div class="line"></div>
+            </p>
+        </div>
+        <div class="home-blog">
+          <div class="blog-items-home"></div>
+        </div>
+                <div class="title1">
+            <p>
+                <div class="line1"></div>
+                &nbsp; CHÚNG TÔI <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjxwYXRoIGZpbGw9IiNkZDJlNDQiIGQ9Ik0zNS44ODUgMTEuODMzYzAtNS40NS00LjQxOC05Ljg2OC05Ljg2Ny05Ljg2OGMtMy4zMDggMC02LjIyNyAxLjYzMy04LjAxOCA0LjEyOWMtMS43OTEtMi40OTYtNC43MS00LjEyOS04LjAxNy00LjEyOWMtNS40NSAwLTkuODY4IDQuNDE3LTkuODY4IDkuODY4YzAgLjc3Mi4wOTggMS41Mi4yNjYgMi4yNDFDMS43NTEgMjIuNTg3IDExLjIxNiAzMS41NjggMTggMzQuMDM0YzYuNzgzLTIuNDY2IDE2LjI0OS0xMS40NDcgMTcuNjE3LTE5Ljk1OWMuMTctLjcyMS4yNjgtMS40NjkuMjY4LTIuMjQyIi8+PC9zdmc+"
+                  alt="heart-icon" /> MAC INSTA &nbsp;
+                <div class="line1"></div>
+            </p>
+        </div>
+        <div class="user-comment">
+            <div class="user-avt">
+              <img src="https://nationaltoday.com/wp-content/uploads/2022/04/Cristiano-Ronaldo-Birthday-1200x834.jpg" alt="user1">
+              <img src="https://cdn.vox-cdn.com/thumbor/HME6YC8484Vf48wW0vz9AGRNa3c=/0x0:4200x2600/1200x0/filters:focal(0x0:4200x2600):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/9490719/thor_big.jpg" alt="user2">
+              <img src="https://img.baoninhbinh.org.vn/DATA/ARTICLES/2024/4/22/taylor-swift-pha-loat-ky-luc-am-nhac-5514c.jpg" alt="user3">
+              <img src="https://afamilycdn.com/150157425591193600/2021/6/14/6-blackpink-jisoo-cartier-event-seoul-19-september-2019-1623650758054435419327.jpeg" alt="user4">
+              <img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/11/1200/675/Angelina_Jolie_Brad_Pitt.jpg?ve=1&tl=1" alt="user5">
+              <img src="https://i.pinimg.com/736x/18/e3/e7/18e3e7aac6fe819480f57ad15bf66969.jpg" alt="user6">
+            </div>
+            <div class="comment">
+              <p>Đã mua rất nhiều đồ ở shop, giá cả hợp lý service tốt, chủ shop tư vấn nhiệt tình !!</p>
+              <span>Justin Bieber</span>
+            </div>
+        </div>
+        <div class="information">
+        </div>
+        <div class="animation">
+        <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+        </div>
+      </main>
+
+    </div>
+    </div>
+    <!--login-->
+      <div id="login-modal">
+        <div class="login-form">
+          <div style="text-align: right;">
+            <button onclick="hideLoginModal()">X</button>
+          </div>
+          <form>
+            <div class="title">
+              <p>Đăng nhập</p>
+            </div>
+              <br />
+            <div class="username">
+              <label for="username">Tên tài khoản hoặc địa chỉ Email*</label>
+              <br />
+              <input type="text" id="username" name="username" />
+              <br />
+            </div>
+            <div class="password">
+              <label for="password">Mật khẩu*</label>
+              <br />
+              <input type="password" id="password" name="password" />
+              <br />
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="remember" name="remember" />
+              <label for="remember">Ghi nhớ đăng nhập</label>
+            </div>
+            <br />
+            <div class="submit">
+              <button type="submit">Đăng nhập</button>
+              <br />
+            </div>
+            <div class="forgot">
+              <label for="forgot">Quên mật khẩu</label>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!--search box -->
+
+      <div id="search-modal">
+  <div class="search-form">
+    <div style="text-align: right;">
+      <button onclick="hideSearchModal()">x</button>
+    </div>
+    <form>
+      <div class="title">
+        <p>Tìm kiếm</p>
+      </div>
+      <div class="search-input">
+        <input type="text" id="search" name="search" placeholder="Nhập từ khóa tìm kiếm" />
+      </div>
+    </form>
+  </div>
+</div>
+
+<!--Favourite page-->
+      <div id="favourite-page" style="display: none;">
+                <div class="container">
+                <header class="header-favourite-page">
+          </header>
+               <div class="sidebar-favourite-page">
+                <div class="line-header"></div>
+               </div>
+      <main>
+        <div class="favourite-box">
+        </div>
+        <div class="favourite-title">
+          <p>Bạn chưa có sản phẩm nào trong danh sách yêu thích.</p>
+          <button onclick="switchToProductPage()">Quay lại cửa hàng</button>
+        </div>
+
+        <div class="animation">
+                  <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+        </div>
+      </main>
+    </div>
+   </div>
+            <!--cart page -->
+
+      <div id="cart-page" style="display: none;" >
+        <div class="container">
+                <header class="header-cart-page">
+          </header>
+               <sidebar class="sidebar-cart-page">
+                <div class="line-header"></div>
+               </sidebar>
+      <main>
+        <div class="cart-box">
+        </div>
+        <div class="cart-title">
+          <p>Bạn chưa có sản phẩm nào trong giỏ hàng.</p>
+          <button onclick="switchToProductPage()">Quay lại cửa hàng</button>
+        </div>
+
+        <div class="animation">
+                  <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+        </div>
+      </main>
+    </div>
+            <div class="information-cart">
+        </div>
+
+      </div>
+<!--product page-->
+    
+    <div id="product-page" style="display: none;">
+      <div class="container">
+          <header class="header-product-page">
+          </header>
+               <div class="sidebar-product-page">
+                <div class="line-header"></div>
+               </div>
+      <main>
+        <div class="product-title">
+          <p>Sản phẩm</p>
+        </div>
+        <div class="product-line"></div>
+<!--product filter-->
+        <div class="product-filter">
+          <p>Showing 1-16 of 136 result</p>
+                  <form class="ordering" method="get">
+	                  <select name="product_cat" class="orderby">
+		                  <option value="">Danh mục</option>
+									    <option value="airpods-accessories">Airpods Accessories</option>
+											<option value="apple-watch-accessories">Apple Watch Accessories</option>
+										  <option value="day-apple-watch">&nbsp;&nbsp;&nbsp;Dây Apple Watch</option>
+											<option value="op-cho-apple-watch">&nbsp;&nbsp;&nbsp;Ốp cho Apple Watch</option>
+											<option value="phu-kien-apple-watch-khac">&nbsp;&nbsp;&nbsp;Phụ Kiện Apple Watch Khác</option>				
+											<option value="balo-tui">Balo &amp; Túi</option>
+										  <option value="balo-thong-minh">&nbsp;&nbsp;&nbsp;Ba lô Thông Minh</option>
+											<option value="tui-va-tui-deo-cheo">&nbsp;&nbsp;&nbsp;Túi và Túi đeo chéo</option>
+											<option value="car-accessories">Car Accessories</option>
+											<option value="iphone-ipad-accessories">Iphone Ipad Accessories</option>
+										  <option value="de-sac-khong-day">&nbsp;&nbsp;&nbsp;Đế sạc không dây</option>
+											<option value="iphone-stand">&nbsp;&nbsp;&nbsp;Iphone/Ipad Stand</option>
+											<option value="phu-kien-iphoneipad-khac">&nbsp;&nbsp;&nbsp;Phụ kiện Iphone/Ipad khác</option>
+											<option value="pin-du-phong">&nbsp;&nbsp;&nbsp;Pin dự phòng</option>					
+											<option value="mac-accessories">Mac Accessories</option>
+										  <option value="hub-cong-chuyen">&nbsp;&nbsp;&nbsp;Hub - Cổng Chuyển</option>
+											<option value="macbook-cases">&nbsp;&nbsp;&nbsp;Macbook Cases</option>
+											<option value="mac-stand">&nbsp;&nbsp;&nbsp;Macbook/iMac Stand</option>
+											<option value="other-accessories">Other Accessories</option>
+											<option value="headphone">Tai nghe và Loa</option>
+										  <option value="tai-nghe">&nbsp;&nbsp;&nbsp;Tai nghe</option>				
+						        </select>
+	                </form>
+                  <form class="ordering1" method="get">
+	                  <select name="orderby" class="orderby">
+					            <option value="menu_order" selected="selected">Thứ tự mặc định</option>
+					            <option value="price">Thứ tự theo giá: thấp đến cao</option>
+					            <option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
+			              </select>
+	                </form>
+              </div>
+
+              <div class="page1-product"></div>
+
+        <div class="numbers-pages">
+          <nav class="nav-number-page">
+            <ul>
+              <li><button>1</button></li>
+              <li><button>2</button></li>
+              <li><button>3</button></li>
+              <li><button>...</button></li>
+              <li><button>7</button></li>
+              <li><button>8</button></li>
+              <li><button>9</button></li>
+              <li><button>></button></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="review-container">
+          <p>Mọi người đánh giá về Mac Insta</p>
+          <div class="review-line"></div>
+          <div class="review-star">
+            <img src="/assets/votestar.png" alt="star-review">
+            <h4>788 Reviews</h4>
+          </div>
+
+          <div class="review-box">
+            <div class="review-user">
+              <img src="https://longevity.technology/wp-content/uploads/2022/11/Chris-Hemsworth-Image-cr-lev-radin-Shutterstock.jpg" alt="review-image">
+              <h5>Chris Hemsworth</h5>
+              <div class="star-review">
+              <img src="/assets/votestar.png" alt="star-review">
+              </div>
+              <br/>
+              <h6>Mua balo đựng búa</h6>
+              <span>Rất đẹp, rất sang, rất tiện. Cảm ơn shop!</span>
+            </div>
+
+            <div class="review-user">
+              <img src="https://img.baoninhbinh.org.vn/DATA/ARTICLES/2024/4/22/taylor-swift-pha-loat-ky-luc-am-nhac-5514c.jpg" alt="review-image">
+              <h5>Taylor Swift</h5>
+              <div class="star-review">
+              <img src="/assets/votestar.png" alt="star-review">
+              </div>
+              <br/>
+              <h6>Mua dây Apple Watch</h6>
+              <span>Dây rất hợp với Apple Watch của chị. Thank shop!</span>
+            </div>
+
+            <div class="review-user">
+              <img src="https://vov.vn/sites/default/files/styles/large/public/2023-10/da780c6083fb11e7962fa73033cd450c.jpeg" alt="review-image">
+              <h5>G-Dragon</h5>
+              <div class="star-review">
+              <img src="/assets/votestar.png" alt="star-review">
+              </div>
+              <br/>
+              <h6>Mua cốc sạc</h6>
+              <span>Anh đã nhận hàng, đẹp và chất lượng hơn hình</span>
+            </div>
+          </div>
+        </div>
+        <div class="animation">
+        <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+        </div>
+      </main>
+      </div>
+    </div>
+
+<!--productwe page-->
+
+        <div id="product-we" style="display: none;">
+      <div class="container">
+          <header class="header-product-we-page">
+          </header>
+               <sidebar class="sidebar-product-we-page">
+                <div class="line-header"></div>
+                </sidebar>
+      <main>
+          <div class="product-we-title">
+            <p>Sản phẩm công nghệ được tuyển chọn bởi Mac Insta Team</p>
+          </div>
+            <div class="product-we-item">
+            </div>
+            <div class="animation">
+        <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+            </div>
+        </main>
+        </div>
+      </div>
+<!--contact page-->
+        <div id="contact-page" style="display: none;">
+          <div class="container">
+          <header class="header-contact-page">
+          </header>
+               <sidebar class="sidebar-contact-page">
+                <div class="line-header"></div>
+                </sidebar>
+      <main>
+            <div class="contact-form">
+              <form>
+            <div class="title-contact">
+              <p>Liên hệ</p>
+            </div>
+              <br />
+            <div class="username-contact">
+              <label for="username">Họ và tên</label>
+              <input type="text" id="username" name="username" />
+              <br />
+            </div>
+            <div class="email-contact">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" />
+              <br />
+            </div>
+              <div class="subject-contact">
+              <label for="contact">Tiêu đề</label>
+              <input type="text" id="subject" name="subject" />
+              <br />
+            </div>
+              <div class="content-contact">
+              <label for="content">Nội dung</label>
+              <br />
+                <input type="text" id="content" name="content" />
+              <br />
+            </div>
+            <br />
+            <div class="send-contact">
+              <button type="send">Gửi yêu cầu</button>
+              <br />
+            </div>
+          </form>
+            </div>
+        </main>
+        </div>
+      </div>
+<!--blog page-->
+      <div id="blog-page" style="display: none;">
+          <div class="container">
+          <header class="header-blog-page">
+          </header>
+               <sidebar class="sidebar-blog-page">
+                <div class="line-header"></div>
+                </sidebar>
+      <main>
+        <div class="blog-title">
+            <p>Welcome to the Mac Insta Blog</p>
+            <span>In-depth product reviews, latest tech breaking news, marketing and growth 
+            hacking resources. Subscribe to our weekly newsletter and stay updated.</span>
+          </div>
+            <div class="blog-items">
+          </div>
+
+        <div class="animation">
+        <i class="icon-insta-shake"">
+           <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGcgZmlsbD0ibm9uZSI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9InVybCgjc2tpbGxJY29uc0luc3RhZ3JhbTApIiByeD0iNjAiLz48cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0idXJsKCNza2lsbEljb25zSW5zdGFncmFtMSkiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjguMDA5IDI4Yy0yNy4xNTggMC0zMC41NjcuMTE5LTQxLjIzMy42MDRjLTEwLjY0Ni40ODgtMTcuOTEzIDIuMTczLTI0LjI3MSA0LjY0NmMtNi41NzggMi41NTQtMTIuMTU3IDUuOTcxLTE3LjcxNSAxMS41MzFjLTUuNTYzIDUuNTU5LTguOTggMTEuMTM4LTExLjU0MiAxNy43MTNjLTIuNDggNi4zNi00LjE2NyAxMy42My00LjY0NiAyNC4yNzFjLS40NzcgMTAuNjY3LS42MDIgMTQuMDc3LS42MDIgNDEuMjM2cy4xMiAzMC41NTcuNjA0IDQxLjIyM2MuNDkgMTAuNjQ2IDIuMTc1IDE3LjkxMyA0LjY0NiAyNC4yNzFjMi41NTYgNi41NzggNS45NzMgMTIuMTU3IDExLjUzMyAxNy43MTVjNS41NTcgNS41NjMgMTEuMTM2IDguOTg4IDE3LjcwOSAxMS41NDJjNi4zNjMgMi40NzMgMTMuNjMxIDQuMTU4IDI0LjI3NSA0LjY0NmMxMC42NjcuNDg1IDE0LjA3My42MDQgNDEuMjMuNjA0YzI3LjE2MSAwIDMwLjU1OS0uMTE5IDQxLjIyNS0uNjA0YzEwLjY0Ni0uNDg4IDE3LjkyMS0yLjE3MyAyNC4yODQtNC42NDZjNi41NzUtMi41NTQgMTIuMTQ2LTUuOTc5IDE3LjcwMi0xMS41NDJjNS41NjMtNS41NTggOC45NzktMTEuMTM3IDExLjU0Mi0xNy43MTJjMi40NTgtNi4zNjEgNC4xNDYtMTMuNjMgNC42NDYtMjQuMjcyYy40NzktMTAuNjY2LjYwNC0xNC4wNjYuNjA0LTQxLjIyNXMtLjEyNS0zMC41NjctLjYwNC00MS4yMzRjLS41LTEwLjY0Ni0yLjE4OC0xNy45MTItNC42NDYtMjQuMjdjLTIuNTYzLTYuNTc4LTUuOTc5LTEyLjE1Ny0xMS41NDItMTcuNzE2Yy01LjU2Mi01LjU2Mi0xMS4xMjUtOC45NzktMTcuNzA4LTExLjUzYy02LjM3NS0yLjQ3NC0xMy42NDYtNC4xNi0yNC4yOTItNC42NDdjLTEwLjY2Ny0uNDg1LTE0LjA2My0uNjA0LTQxLjIzLS42MDR6bS04Ljk3MSAxOC4wMjFjMi42NjMtLjAwNCA1LjYzNCAwIDguOTcxIDBjMjYuNzAxIDAgMjkuODY1LjA5NiA0MC40MDkuNTc1YzkuNzUuNDQ2IDE1LjA0MiAyLjA3NSAxOC41NjcgMy40NDRjNC42NjcgMS44MTIgNy45OTQgMy45NzkgMTEuNDkyIDcuNDhjMy41IDMuNSA1LjY2NiA2LjgzMyA3LjQ4MyAxMS41YzEuMzY5IDMuNTIgMyA4LjgxMiAzLjQ0NCAxOC41NjJjLjQ3OSAxMC41NDIuNTgzIDEzLjcwOC41ODMgNDAuMzk2YzAgMjYuNjg4LS4xMDQgMjkuODU1LS41ODMgNDAuMzk2Yy0uNDQ2IDkuNzUtMi4wNzUgMTUuMDQyLTMuNDQ0IDE4LjU2M2MtMS44MTIgNC42NjctMy45ODMgNy45OS03LjQ4MyAxMS40ODhjLTMuNSAzLjUtNi44MjMgNS42NjYtMTEuNDkyIDcuNDc5Yy0zLjUyMSAxLjM3NS04LjgxNyAzLTE4LjU2NyAzLjQ0NmMtMTAuNTQyLjQ3OS0xMy43MDguNTgzLTQwLjQwOS41ODNjLTI2LjcwMiAwLTI5Ljg2Ny0uMTA0LTQwLjQwOC0uNTgzYy05Ljc1LS40NS0xNS4wNDItMi4wNzktMTguNTctMy40NDhjLTQuNjY2LTEuODEzLTgtMy45NzktMTEuNS03LjQ3OXMtNS42NjYtNi44MjUtNy40ODMtMTEuNDk0Yy0xLjM2OS0zLjUyMS0zLTguODEzLTMuNDQ0LTE4LjU2M2MtLjQ3OS0xMC41NDItLjU3NS0xMy43MDgtLjU3NS00MC40MTNjMC0yNi43MDQuMDk2LTI5Ljg1NC41NzUtNDAuMzk2Yy40NDYtOS43NSAyLjA3NS0xNS4wNDIgMy40NDQtMTguNTY3YzEuODEzLTQuNjY3IDMuOTgzLTggNy40ODQtMTEuNWMzLjUtMy41IDYuODMzLTUuNjY3IDExLjUtNy40ODNjMy41MjUtMS4zNzUgOC44MTktMyAxOC41NjktMy40NDhjOS4yMjUtLjQxNyAxMi44LS41NDIgMzEuNDM3LS41NjN6bTYyLjM1MSAxNi42MDRjLTYuNjI1IDAtMTIgNS4zNy0xMiAxMS45OTZjMCA2LjYyNSA1LjM3NSAxMiAxMiAxMnMxMi01LjM3NSAxMi0xMnMtNS4zNzUtMTItMTItMTJ6bS01My4zOCAxNC4wMjFjLTI4LjM2IDAtNTEuMzU0IDIyLjk5NC01MS4zNTQgNTEuMzU1YzAgMjguMzYxIDIyLjk5NCA1MS4zNDQgNTEuMzU0IDUxLjM0NGMyOC4zNjEgMCA1MS4zNDctMjIuOTgzIDUxLjM0Ny01MS4zNDRjMC0yOC4zNi0yMi45ODgtNTEuMzU1LTUxLjM0OS01MS4zNTV6bTAgMTguMDIxYzE4LjQwOSAwIDMzLjMzNCAxNC45MjMgMzMuMzM0IDMzLjMzNGMwIDE4LjQwOS0xNC45MjUgMzMuMzM0LTMzLjMzNCAzMy4zMzRjLTE4LjQxIDAtMzMuMzMzLTE0LjkyNS0zMy4zMzMtMzMuMzM0YzAtMTguNDExIDE0LjkyMy0zMy4zMzQgMzMuMzMzLTMzLjMzNCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0ic2tpbGxJY29uc0luc3RhZ3JhbTAiIGN4PSIwIiBjeT0iMCIgcj0iMSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0yNTMuNzE1IDIzNS45NzUgMCA2OCAyNzUuNzE3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4xIiBzdG9wLWNvbG9yPSIjZmQ1Ii8+PHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmNTQzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2M4MzdhYiIvPjwvcmFkaWFsR3JhZGllbnQ+PHJhZGlhbEdyYWRpZW50IGlkPSJza2lsbEljb25zSW5zdGFncmFtMSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDIyLjI1OTUyIDExMS4yMDYxIC00NTguMzk1MTggOTEuNzU0NDkgLTQyLjg4MSAxOC40NDEpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iLjEyOCIgc3RvcC1jb2xvcj0iIzM3NzFjOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzYwZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PC9nPjwvc3ZnPg=="
+            alt="insta icon" />
+        </i>
+        <i class="icon-phone-shake">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTE5LjIzIDE1LjI2bC0yLjU0LS4yOWExLjk5IDEuOTkgMCAwIDAtMS42NC41N2wtMS44NCAxLjg0YTE1LjA0NSAxNS4wNDUgMCAwIDEtNi41OS02LjU5bDEuODUtMS44NWMuNDMtLjQzLjY0LTEuMDMuNTctMS42NGwtLjI5LTIuNTJhMi4wMDEgMi4wMDEgMCAwIDAtMS45OS0xLjc3SDUuMDNjLTEuMTMgMC0yLjA3Ljk0LTIgMi4wN2MuNTMgOC41NCA3LjM2IDE1LjM2IDE1Ljg5IDE1Ljg5YzEuMTMuMDcgMi4wNy0uODcgMi4wNy0ydi0xLjczYy4wMS0xLjAxLS43NS0xLjg2LTEuNzYtMS45OCIvPjwvc3ZnPg=="
+            alt="phone-icon" />
+        </i>
+        </div>
+        </main>
+        </div>
+      </div>
+<!---->
+      
+      </div>
+    </div>
+    <script>
+      function showLoginModal() {
+        document.getElementById('login-modal').style.display = 'block';
+      }
+      function hideLoginModal() {
+        document.getElementById('login-modal').style.display = 'none';
+      }
+
+      function showSearchModal() {
+        document.getElementById('search-modal').style.display = 'block';
+      }
+
+      function hideSearchModal() {
+        document.getElementById('search-modal').style.display = 'none';
+      }
+
+      // Close click anywhere
+      window.onclick = function(event) {
+        if (event.target == document.getElementById('search-modal')) {
+          hideSearchModal();
+        }
+        if (event.target == document.getElementById('login-modal')) {
+          hideLoginModal();
+        }
+      }
+
+      function switchToCartPage() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('cart-page').style.display = 'block';
+        document.getElementById('product-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'none';
+        document.getElementById('favourite-page').style.display = 'none'
+      }
+      function switchToFavouritePage(){
+        document.getElementById('favourite-page').style.display = 'block';
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('cart-page').style.display = 'none';
+        document.getElementById('product-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'none';
+      }
+      function switchToProductPage() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('product-page').style.display = 'block';
+        document.getElementById('cart-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'none';
+        document.getElementById('favourite-page').style.display = 'none'
+      }
+      function switchToProductWePage() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('product-page').style.display = 'none';
+        document.getElementById('cart-page').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'block';
+        document.getElementById('favourite-page').style.display = 'none'
+      }
+      function switchToContactPage() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('product-page').style.display = 'none';
+        document.getElementById('cart-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'block';
+        document.getElementById('favourite-page').style.display = 'none'
+      }
+      function switchToBlogPage() {
+        document.getElementById('home-page').style.display = 'none';
+        document.getElementById('product-page').style.display = 'none';
+        document.getElementById('cart-page').style.display = 'none';
+        document.getElementById('product-we').style.display = 'none';
+        document.getElementById('contact-page').style.display = 'none';
+        document.getElementById('blog-page').style.display = 'block';
+        document.getElementById('favourite-page').style.display = 'none'
+      }
+    </script>
+    <script src="/page/script/script.js"></script>
+    <script src="/page/script/sidebar.js"></script>
+    <script src="/page/script/header.js"></script>
+    <script src="/page/script/information.js"></script>
+    <script src="/page/script/banner.js"></script>
+    <script src="/page/script/animation.js"></script>
+    <script src="/page/script/addcart.js"></script>
+    <script src="/page/script/productsfilter.js"></script>
+  </body>
+</html>
